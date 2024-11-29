@@ -1,0 +1,10 @@
+run-dev:
+	cargo run
+
+run-release:
+	cargo run --release
+	./target/release/house-price-predictor
+
+
+build:
+	docker build -t house-price-predictor -f D:\House-Price-Predictor\house-price-predictor\Dockerfile .
