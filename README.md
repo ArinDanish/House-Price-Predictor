@@ -67,7 +67,7 @@ The trained model is stored in the models/ directory and automatically uploaded 
 
 ### Technologies Used
 Programming Language: Rust
-Machine Learning Framework: TBD (e.g., SmartCore, Linfa, etc.)
+Machine Learning Framework: XGBoost
 Cloud Storage: AWS S3
 Containerization: Docker
 Build Automation: Makefile
